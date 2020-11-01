@@ -5,6 +5,7 @@ web.init();
 web.transaction('Open Web site')
 
 web.open('http://www.wikipedia.org');
-web.setTimeout(1000);
+log.info('${col1}')
+web.setTimeout(400);
 web.assertTitle('dssssssssss');
 
